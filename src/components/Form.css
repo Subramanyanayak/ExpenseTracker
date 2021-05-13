@@ -1,0 +1,36 @@
+.container{
+    display: flex;
+    color: white;
+    justify-content: space-around;
+    background-color: rgb(27, 10, 175);
+    padding: 20px;
+    border-radius: 12px;
+    width: 530px;
+    margin: auto;
+    margin-top: 20px;
+}
+.container div{
+    padding: 10px;
+}
+.container .date{
+    flex: 1;
+}
+.container .description{
+    flex:2;
+}
+.container .price{
+    flex: 1;
+}
+.input{
+    height: 20px;
+    width: 200px;
+    border-radius: 12px;
+    outline: none;
+}
+.addnew{
+    background-color: rgb(40, 3, 98);
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    outline: none;
+}
